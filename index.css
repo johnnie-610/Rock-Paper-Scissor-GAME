@@ -1,5 +1,41 @@
-.class
-{
-	display: block;
-	color: #00ff00;
+*{
+	font:900;
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-weight: 900;
+	font-style: italic;
+}
+
+body{
+	background-color: black;
+}
+
+.container {
+	padding: 0;
+	margin-top: 20%;
+	height: 50vh;
+	border: 4px solid lime;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	background:yellow
+}
+
+h1{
+	font-size: 40px;
+	color: red;
+}
+
+p{
+	font-size: 28px;
+	color: orchid;
+}
+
+span{
+	color: blue;
+}
+
+.container:hover{
+	background-color: greenyellow;
+	border: 4px solid blueviolet;
 }
